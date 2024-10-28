@@ -1,16 +1,29 @@
-# food_app
+# Food Delivery Flutter App
 
-A new Flutter project.
+This repository contains a Flutter-based Food Delivery app featuring a carousel, filterable menu, and cart functionality. It uses Riverpod for state management and supports animated navigation between screens.
+
+## Features
+
+- Carousel with promotional images
+- Horizontal scrollable filter for dish categories
+- List view of dishes beneath the filter
+- Cart and detailed dish information screens
+
+## Prerequisites
+
+1. **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install)
+2. **Riverpod CLI**: Install with `flutter pub add riverpod`
+3. **Dependencies**: Run `flutter pub get` in the project root
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/food_delivery_flutter_app.git
+   cd food_delivery_flutter_app
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Project Structure**
+```lib/models/: Data models
+lib/providers/: Riverpod providers for dishes and cart
+lib/screens/: Screens for dashboard, details, and cart
+main.dart: Main entry point with global navigation setup
